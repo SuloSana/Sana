@@ -1,0 +1,62 @@
+1)
+package Wipro;
+
+import java.util.Scanner;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		String s1=sc.next();
+		if(s.equals("wipro") && s1.equals("bangalore"))
+              {
+	                  System.out.println("Wipro techonologies Bangalore");
+              }
+		else
+		{
+			System.out.println("abs Mumbai");
+		}
+		
+
+	}
+
+}
+
+2)
+package Wipro;
+
+import java.util.Scanner;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		System.out.println("Welcome "+s);
+
+	}
+
+}
+
+
+
+
+
+3)
+package Wipro;
+
+import java.util.Scanner;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int t1=sc.nextInt();
+		int t2=sc.nextInt();
+		int sum=t1+t2;
+		System.out.println("sum  "+sum);
+
+	}
+
+}
