@@ -1,0 +1,16 @@
+public class Flow4{
+public static void main(String args[]){
+	char example1='s';
+	char example2='e';
+	//char example1=args[0].charAt(0);
+	//char example2=args[1].charAt(0);
+	if(example2<example1)
+	  {
+          System.out.println(example2+","+example1);
+	  }
+	else
+	  {
+	  System.out.println(example1+","+example2);
+	  }
+   }
+}
